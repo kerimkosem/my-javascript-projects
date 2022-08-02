@@ -1,4 +1,4 @@
 
-# my-javascript-projects
-These are the projects that I made using javascript
+# My Javascript Projects
+These are the exercises projects that I made using javascript
 

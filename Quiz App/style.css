@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Poppins&family=Roboto&family=Roboto+Mono:ital,wght@1,100&family=Rubik&family=The+Nautigal&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color:#ccd5e4 ;
+}
+
+.container {
+    background-color: white;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+    
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.context {
+    padding: 20px;
+}
+
+
+ul li {
+    list-style-type: none;
+    margin: 10px;
+    font-size: 1.1rem;
+}
+
+input , label {
+    cursor: pointer;
+}
+
+button {
+
+    background-color: #3b38da;
+    width: 100%;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    padding: 20px 0;
+    font-family: inherit;
+    
+}
+
+button:hover {
+    background-color: #2724bb;
+}
