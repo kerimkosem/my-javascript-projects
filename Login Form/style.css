@@ -13,4 +13,88 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-color: #AFB4FF;
+}
+
+.container {
+    background-color: #607EAA;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container a {
+    color: lightblue;
+}
+
+.form-control {
+    position: relative;
+    margin: 20px 30px
+    ;
+    width: 300px;
+}
+
+.form-control input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 18px;
+    color: #fff;
+    
+
+}
+
+.form-control input:focus {
+    outline: none;
+    border-bottom-color: lightblue;
+}
+
+.btn {
+    cursor: pointer;
+    width: 100%;
+    background-color: lightblue;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    font-family: inherit;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #1e52a0;
+}
+
+.btn:active {
+    transform: scale(0.97);
+}
+
+.text {
+    margin-top: 25px;
+    text-align: 
+    center;
+}
+
+.form-control label {
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+
+.form-control label span {
+    display: inline-block;
+    font-size: 18px;
+    transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.form-control input:focus + label span  {
+    color: lightblue;
+    transform: translateY(-30px);
 }
